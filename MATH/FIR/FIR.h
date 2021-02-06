@@ -13,11 +13,10 @@
 #ifndef FIR_H
 #define	FIR_H
 
-#include "stdint.h"
+#include <stdint.h>
 
-#define FILTER_DATA_TYPE    uint16_t
+#define FILTER_DATA_TYPE    uint8_t
 
-#define SUMMING_BUFFER_LEN  5
 
 typedef struct
 {

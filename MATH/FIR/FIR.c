@@ -44,13 +44,13 @@ void SUM_BUFFER(FILTER_DATA_TYPE IN, FILTER_DATA_TYPE* SUM, FIR_Filter_cfg* FILT
 	FILTER_OBJ->Data_Buffer[FILTER_OBJ->Buffer_Index] = IN;
 	FILTER_OBJ->Buffer_Index++;
 	
-    if(FILTER_OBJ->Buffer_Index == SUMMING_BUFFER_LEN)
+    if(FILTER_OBJ->Buffer_Index == FILTER_OBJ->Filter_Order+1)
     { FILTER_OBJ->Buffer_Index = 0; }
     
     // Calculate The Accumulated Sum For The Buffer Data
-    for(i = 0; i < SUMMING_BUFFER_LEN; i++)
+    for(i = 0; i < FILTER_OBJ->Filter_Order+1; i++)
     {
         temp_sum += FILTER_OBJ->Data_Buffer[i];
     }
-    *SUM = (uint16_t)temp_sum;
+    *SUM = (FILTER_DATA_TYPE)temp_sum;
 }
