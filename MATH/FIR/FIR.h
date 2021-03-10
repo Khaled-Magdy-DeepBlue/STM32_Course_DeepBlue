@@ -3,6 +3,7 @@
  * Driver Name: [[ FIR Digital Filters ]]
  * SW Layer:   ECUAL
  * Created on: Jun 28, 2020
+ * Ver: 1.1
  * Author:     Khaled Magdy
  * -------------------------------------------
  * For More Information, Tutorials, etc.
@@ -15,7 +16,7 @@
 
 #include <stdint.h>
 
-#define FILTER_DATA_TYPE    uint8_t
+#define FILTER_DATA_TYPE    float
 
 
 typedef struct

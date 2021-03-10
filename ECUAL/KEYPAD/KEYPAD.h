@@ -3,6 +3,7 @@
  * Driver Name: [[ 4x4 KEYPAD ]]
  * SW Layer:   ECUAL
  * Created on: Jun 28, 2020
+ * Ver: 1.0
  * Author:     Khaled Magdy
  * -------------------------------------------
  * For More Information, Tutorials, etc.

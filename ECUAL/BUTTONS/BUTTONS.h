@@ -1,8 +1,14 @@
 /*
- * BUTTONS.h
+ * File: BUTTONS.h
+ * Driver Name: [[ BUTTONS ]]
+ * SW Layer:   ECUAL
+ * Created on: Jun 28, 2020
+ * Ver: 1.0
+ * Author:     Khaled Magdy
+ * -------------------------------------------
+ * For More Information, Tutorials, etc.
+ * Visit Website: www.DeepBlueMbedded.com
  *
- *  Created on: Jul 8, 2020
- *      Author: Khaled Magdy
  */
 
 #ifndef BUTTONS_H_

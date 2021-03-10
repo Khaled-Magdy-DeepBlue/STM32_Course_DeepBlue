@@ -52,6 +52,7 @@ void LCD_Clear()
 {
     LCD_CMD(0);
     LCD_CMD(1);
+    DWT_Delay_us(70);
 }
 void LCD_Set_Cursor(unsigned char r, unsigned char c)
 {
@@ -72,7 +73,7 @@ void LCD_Set_Cursor(unsigned char r, unsigned char c)
       LCD_CMD(High4);
       LCD_CMD(Low4);
     }
-    DWT_Delay_ms(1);
+    DWT_Delay_ms(2);
 }
 void LCD_Init()
 {

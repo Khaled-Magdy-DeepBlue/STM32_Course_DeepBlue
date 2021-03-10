@@ -15,7 +15,7 @@
 
 void AVG_FIR_LPF(FILTER_DATA_TYPE IN, FILTER_DATA_TYPE* OUT, FIR_Filter_cfg* FILTER_OBJ)
 {
-    int32_t SUM = 0;
+	FILTER_DATA_TYPE SUM = 0;
     uint16_t i = 0;
     
     // Push The New Input To The History Buffer

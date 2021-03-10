@@ -3,6 +3,7 @@
  * Driver Name: [[ LCD16x2 Display (GPIO 4-Bit Mode) ]]
  * SW Layer:   ECUAL
  * Created on: Jun 28, 2020
+ * Ver: 1.1
  * Author:     Khaled Magdy
  * -------------------------------------------
  * For More Information, Tutorials, etc.
