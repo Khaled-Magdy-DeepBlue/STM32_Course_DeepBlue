@@ -107,12 +107,6 @@ void STEPPERS_Init(void)
     		gs_STEPPER_info[i].Max_Index = 8;
     	}
     }
-    // for debug
-    GPIO_InitStruct.Pin = GPIO_PIN_0;
-        GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-        GPIO_InitStruct.Pull = GPIO_NOPULL;
-        GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-        HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 }
 
 void STEPPERS_Init_TMR(TIM_HandleTypeDef* TMR_Handle)
