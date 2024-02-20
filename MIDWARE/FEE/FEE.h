@@ -1,7 +1,7 @@
 /*
  * File: FEE.h
  * Driver Name: [[ FEE (Flash EEPROM Emulation) ]]
- * SW Layer:   MIDWR
+ * SW Layer:   MIDWARE
  * Author:     Khaled Magdy
  * -------------------------------------------
  * For More Information, Tutorials, etc.
