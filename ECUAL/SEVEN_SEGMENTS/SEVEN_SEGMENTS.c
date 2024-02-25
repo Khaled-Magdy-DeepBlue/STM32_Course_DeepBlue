@@ -14,7 +14,7 @@
 #include "SEVEN_SEGMENTS_cfg.h"
 
 
-#define MAX_DIGITS  4
+#define MAX_DIGITS  DIGITS + 1
 #define ENABLED     1
 #define DISABLED    0
 
