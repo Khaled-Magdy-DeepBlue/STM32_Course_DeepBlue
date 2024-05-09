@@ -210,6 +210,7 @@ void STEPPER_Step_Blocking(uint8_t au8_STEPPER_Instance, uint32_t au32_Steps, ui
 	uint32_t DelayTimeMs = 0;
 
 	gs_STEPPER_info[au8_STEPPER_Instance].Blocked = 1;
+	gs_STEPPER_info[au8_STEPPER_Instance].Dir = au8_DIR;
 	DelayTimeMs = (60000/(gs_STEPPER_info[au8_STEPPER_Instance].RPM * STEPPER_CfgParam[au8_STEPPER_Instance].STEPS_PER_REV));
 	// Send The Control Signals
 	for(i=0; i<au32_Steps; i++)
